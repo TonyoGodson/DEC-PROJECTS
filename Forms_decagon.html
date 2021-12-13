@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <form id = "form">
+        <ul style = "list-style-type: none">
+            <li><label for = "username">Name</label>
+                <input type = "text" name = "username" id = "username" required/>
+            </li>
+            <li>
+                <label for = "email">Email </label>
+                <input type = "email" name = "email" id = "email" required/>
+            </li>
+            <li>
+                <label for = "date">Date     </label>
+                <input type = "date" name = "date" id = "date" required/>
+            </li>
+            <li>
+                <label for = "age">Age: Check if you are up to age 18.     </label>
+                <input type = "checkbox" name = "age" id = "age" required value = "Please check the box if you are up to 18."/>
+            </li>
+            <li>
+                <label for = "date">Male     </label>
+                <input type = "radio" name = "radio" id = "male" required/>
+                <label for = "date">Female     </label>
+                <input type = "radio" name = "radio" id = "female" required/>
+                <label for = "date">Both     </label>
+                <input type = "radio" name = "radio" id = "both" required/>
+            </li>
+            <label for = "date">Female     </label>
+            <input type = "radio" name = "radio" id = "radio" required/>
+        </ul>
+        <button type "submit">Submit</button>
+    </form>
+</body>
+</html>
